@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (mainContainer) {
     // Different image sets for different pages
     let images;
-    if (window.location.pathname === '/experience.html' || window.location.pathname === '/experience') {
+    if (window.location.pathname.includes('experience.html')) {
       // Experience page images
       images = [
         '../images/experience_1.jpg',
