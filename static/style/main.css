@@ -215,7 +215,7 @@
     margin: 0;
     height: 75vh;
     z-index: 1;
-    width: 100vw;
+    width: 100%;
     padding: 0 50px;
     position: relative;
     overflow: hidden;
