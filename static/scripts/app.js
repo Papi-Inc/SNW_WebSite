@@ -15,18 +15,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (window.location.pathname === '/experience.html' || window.location.pathname === '/experience') {
       // Experience page images
       images = [
-        '/static/images/experience_1.jpg',
-        '/static/images/experience_2.jpg',
-        '/static/images/experience_3.jpg',
-        '/static/images/experience_4.jpg'
+        '../images/experience_1.jpg',
+        '../images/experience_2.jpg',
+        '../images/experience_3.jpg',
+        '../images/experience_4.jpg'
       ];
     } else {
       // Home page images
       images = [
-        '/static/images/mtl_1.jpg',
-        '/static/images/mtl_2.jpg',
-        '/static/images/mtl_3.jpg',
-        '/static/images/mtl_4.jpg'
+        '../images/mtl_1.jpg',
+        '../images/mtl_2.jpg',
+        '../images/mtl_3.jpg',
+        '../images/mtl_4.jpg'
       ];
     }
 
